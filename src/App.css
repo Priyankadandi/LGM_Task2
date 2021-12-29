@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./img/bk-img1.jpg');
+  background-size: 100% 900px;
+  background-repeat: no-repeat;
+}
+small{
+  font-size: 40px;
+  text-align: center;
+  margin-left:350px;
+  font-family: cursive;
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  font-variant: small-caps;
+  color:darkorange;
+  font-weight: bold;
+}
+.logo {
+  margin-top: -200px;
+  margin-bottom: 10px;
+}

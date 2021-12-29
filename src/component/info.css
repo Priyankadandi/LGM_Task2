@@ -1,0 +1,79 @@
+button {
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(252, 3, 177);
+    font-family: cursive;
+    color: #fff;
+    padding: 10px 24px;
+    font-size: 20px;
+    margin-left: 1300px;
+
+}
+  
+button:hover {
+  transition: 200ms;
+  transform: scale(1.1);
+}
+  
+nav {
+  background-attachment: fixed;
+  height: 200px;
+  background-color: rgba(0,0,0,.4);
+  color: #fff;
+}  
+
+.loader {
+  margin: 0 auto;
+  size: 64;
+  color: white;
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+  
+.avatar {
+  border-radius: 90px;
+  margin-bottom: 10px;
+}
+  
+#main {
+  padding: 15px 50px;
+  margin: 10px auto;
+  display: none;
+}
+  
+#main img {
+  animation-delay: 5s;
+}
+  
+.profile {
+  margin-bottom: 300px;
+  max-width: 300px;
+  margin: 10px 10px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 18px;
+  color:coral;
+  box-shadow: 0 0 10px rgb(36, 230, 18);
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 22px;
+  background:#fff;
+}
+  
+.profile:hover {
+  box-shadow: 0 0 40px rgb(152, 18, 230);
+  transform: translateY(-30px);
+}
+  
+.name {
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  color: cornflowerblue;
+  font-size: 20px;
+}  
+.email {
+  color: darkcyan;
+  font-family: cursive;
+  font-size: 18px;
+  overflow-wrap: break-word;
+}
